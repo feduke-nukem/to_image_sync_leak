@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage>
     );
   }
 
-  void _rasterizeSync() async {
+  void _rasterizeSync() {
     final image =
         (_key.currentContext!.findRenderObject() as RenderRepaintBoundary)
             .toImageSync();
